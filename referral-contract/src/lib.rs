@@ -55,7 +55,7 @@ impl ReferralContract {
 #[cfg(test)]
 mod test {
     use super::*;
-    use soroban_sdk::{testutils::Events, Env, TryIntoVal};
+    use soroban_sdk::Env;
 
     #[test]
     fn test_initialisation() {
